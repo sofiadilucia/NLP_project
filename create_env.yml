@@ -1,0 +1,13 @@
+name: nlp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pytorch::cpuonly
+  - pytorch::pytorch
+  - conda-forge::transformers
+  - huggingface::datasets
+  - jupyter
+  - ipykernel
