@@ -8,4 +8,5 @@ Generating a RAG
 .
 ├── dataset.ipynb  # inspect dataset
 └── environment.yml  # conda env
+└── create_env.yml  # conda env windows
 ```
