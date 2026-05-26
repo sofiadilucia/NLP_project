@@ -232,4 +232,3 @@ dependencies:
   - zeromq=4.3.5=hf801bfb_2
   - zlib=1.3.1=h47b2149_1
   - zstd=1.5.7=h11fc155_0
-prefix: /home/teo/miniconda3/envs/nlp
