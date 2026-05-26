@@ -2,8 +2,10 @@
 
 Generating a RAG
 
+<h2 align=center> File tree </h2>
+
 ```
 .
 ├── dataset.ipynb  # inspect dataset
-└── environment.yml  # used conda env
+└── environment.yml  # conda env
 ```
