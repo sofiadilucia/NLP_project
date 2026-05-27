@@ -1,3 +1,26 @@
+## 26/05/26 - Sofia
+
+Created the conda env using `create_env.yml`, then added to the `.gitignore` file. 
+
+Introduced in the `dataset.ipynb` some (kind of useful) methods such as `get_dataset_split_names` and `get_dataset_config_names` to better inspect the dataset (useful before downloading it). 
+
+Printed some examples of the text that should be our dataset. Not sure that we can use it as it is, i think we will need to pre-process it (see later why).
+
+If we'll choose the Musk-v-Altman-case dataset i think we should use all the possible 'types' (not only the emails) and filtering for the 'body_markdown' feature.
+
+Here, we can have a problem: I tested the tokenization on the first 'body_markdown' document and i got an error "too many tokens". This is why we'll need some pre-processing or try with another model that has a larger maximum-sequence-length.
+
+Printed also an example for the UFO dataset and seems to be clearer. 
+
+I didn't understand the "Check some documents by id" part.
+
+Also i'm wondering if we need to keep trace of some metadata related to the text (i think so).
+
+I suggest to not work directly on the main but we'll merge the dataset branch once we'll finish with it.
+
+
+
+
 ## 26/05/26 - Giovanni
 
 Created a conda env, not sure whether to upload the final created conda env or the original list of packages to be installed. I git pushed the actual `environment.yml` so just `conda env create -f environment.yml` to create the same env called 'nlp'.
