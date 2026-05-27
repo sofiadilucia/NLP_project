@@ -1,3 +1,14 @@
+## 27/05/26 - Sofia
+
+Removed the Musk-v-Aktman-case and cleaned the notebook in general.
+
+Did a dumb test to see if there are almost-empty pages (threshold of 20 characters). We'll see if we'll need to fix this problem of empty-pages by removing them or just creating a single-huge-text with all the pages.
+
+We'll keep you updated, bitches.
+
+xoxo, gossip girl
+
+
 ## 26/05/26 - Sofia
 
 Created the conda env using `create_env.yml`, then added to the `.gitignore` file. 
