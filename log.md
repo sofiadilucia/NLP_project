@@ -2,6 +2,8 @@
 
 Created a "new dataset" removing empty documents and merging pages of same documents together. Started working on possible tokenization method: perhaps it is possible to tokenize everything with the AutoTokenizer (raise `max_length` limit) then rearrange the tokens and the dataset to our needs.
 
+I did sort of a retrieval with Bert, I think there is definitely a better way than for cycles to tokenize and to stuff. Batch things.
+
 ## 27/05/26 - Sofia
 
 Removed the Musk-v-Aktman-case and cleaned the notebook in general.
