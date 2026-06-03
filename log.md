@@ -1,3 +1,15 @@
+## 03/06/26 - Sofia
+
+Chunk division using LangChain, because at the end the embedding models are using (mainly) the text instead of tokens.
+
+Found out that Bert should not be used as embedder so i tried to use Harrier first (harrier-oss-v1-270m) but didn't work, then i tried also with Qwen3 (Qwen3-Embedding-0.6B) but failed againi.
+
+"Please send help" someone would say.
+
+Btw i think we should use Qwen3 because works better for english than Harrier (chinese).
+
+If we solve this problem then we can proceed with the vector database using faiss-cpu
+
 ## 30/05/26 - Giovanni
 
 Created a "new dataset" removing empty documents and merging pages of same documents together. Started working on possible tokenization method: perhaps it is possible to tokenize everything with the AutoTokenizer (raise `max_length` limit) then rearrange the tokens and the dataset to our needs.
