@@ -1,3 +1,16 @@
+## 04/06/26 - Sofia
+
+Used Google Colab to not have problems. Added some notes (to rewrite) about Qwen3 Model Architecture to better understand the code and how the model works (i have a cute picture about the model architecture but failed to insert it in the markdown, rip).
+
+Tried the 0.6B model but there is still the RAM problem. I'm using the code given ini the Qwen3 huggingface page modifying the task and the queries. I'm not sure about the use of chunk text instead of the whole page text because the model has a limit of 8192 tokens.
+
+The problem is the constraint on the overlap chunk that we have: this forces us to use LangChain but we have to think it as a pure text-splitter.
+
+I don't know hot to keep trace of the metadata, honestly i didn't even try but for sure we can. 
+
+Forget to clean the cells below.
+
+
 ## 03/06/26 - Sofia
 
 Chunk division using LangChain, because at the end the embedding models are using (mainly) the text instead of tokens.
