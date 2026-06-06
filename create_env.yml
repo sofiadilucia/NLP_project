@@ -1,15 +1,18 @@
 name: nlp
 channels:
-  - defaults
+  - pytorch
   - conda-forge
+  - defaults
 dependencies:
   - python
   - numpy=1.26
   - mkl=2024.0.0
-  - pytorch::cpuonly
-  - pytorch::pytorch
-  - huggingface::transformers
-  - huggingface::datasets
-  - huggingface::huggingface_hub
+  - pytorch
+  - conda-forge::langchain-text-splitters
+  - conda-forge::huggingface_hub
+  - conda-forge::datasets
+  - conda-forge::transformers
+  - bitsandbytes
+  - accelerate
   - jupyter
   - ipykernel

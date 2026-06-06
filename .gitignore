@@ -1,4 +1,4 @@
 .vscode/
 .ipynb_checkpoints/
 models_cache/
-create_env.yml
+tokenizers_cache/
