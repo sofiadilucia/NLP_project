@@ -1,3 +1,11 @@
+## 16/06/26 - Sofia
+
+- Embedding: we are using Harrier and Qwen3 in the same way. We should check for the number of max tokens, the padding side, quantization.<br>We should also write better the task and the queries.
+- Retrieval: eplore more the k values and print the cosine similarity
+- Generation: created a new (useful) function. We should try with/without thinking and the other params in general. Also here we should check for the max number of tokens.<br>Also here we should check the padding and the other params that we chose before, maybe they are not the best here.<br>Also the system_prompt can be written better.
+- Evaluation: not sure if just selecting passages (pages) randomly is enough. Also, for each passage would be better to produce a couple of q&a instead of only one pair.<br>A more powerful generator can be tried using cloudveneto.<br>Created the judge-score-part but not tested yet. We need to decide which kind of score we want.
+
+
 ## 04/06/26 - Sofia
 
 Used Google Colab to not have problems. Added some notes (to rewrite) about Qwen3 Model Architecture to better understand the code and how the model works (i have a cute picture about the model architecture but failed to insert it in the markdown, rip).
