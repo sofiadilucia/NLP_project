@@ -14,5 +14,6 @@ dependencies:
   - conda-forge::transformers
   - bitsandbytes
   - accelerate
+  - faiss
   - jupyter
   - ipykernel
