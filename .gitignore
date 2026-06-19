@@ -2,3 +2,12 @@
 .ipynb_checkpoints/
 models_cache/
 tokenizers_cache/
+gold_answers.txt/
+gold_answers1.txt/
+gold_answers2.txt/
+questions.txt/
+questions1.txt/
+questions2.txt/
+rag_answers.txt/
+rag_answers1.txt/
+rag_answers2.txt/
