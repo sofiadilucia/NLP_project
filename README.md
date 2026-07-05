@@ -5,6 +5,7 @@ Retrieval Augmented Generation system on [MTSlive war-gov-uap](https://huggingfa
 ---
 
 <div align=center> <img src="https://media.mts-in.com/release_1/38-143685-box-incident-summaries-101-172/p137_f1_sketch.webp" height=250> </div>
+
 Image taken from [MTSlive war-gov-uap](https://huggingface.co/datasets/MTSlive/war-gov-uap-release-1).
 
 
